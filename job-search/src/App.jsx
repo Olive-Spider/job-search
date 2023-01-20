@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import LandingPage from "./pages/LandingPage"
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <h1 className="text-3xl font-bold underline">
-    Welcome to Job Search!
-  </h1>
-)
+    <div className="App">
+     <LandingPage/>
+    </div>
+  )
 }
 
 export default App
